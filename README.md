@@ -1,48 +1,35 @@
-# IAI Paper Release Template
-
-*The following document provides a template for a README file of a GitHub repository accompanying a paper. Instructions are typeset in italic and should be removed.*
-
-  * *Change the first line of this file to "# Paper Title in Camelcase"*
+# Analyzing and Simulating User Utterance Reformulation in Conversational Recommender Systems
 
 This repository provides resources developed within the following article:
 
-> A. Smith, B. Smith and C. Smith. **Paper title in Camelcase.** In: Proceedings or Journal details (series). Publisher. City, Country. Month 2018. [DOI: XX.XXXX/XXXXXXX.XXXXXXX](link to full DOI URL: http://*/XX.XXXX/XXXXXXX.XXXXXXX) [PDF](link to PDF on arXiv)
+> Zhang, Wang, Balog. **Analyzing and Simulating User Utterance Reformulation in Conversational Recommender Systems.** In: Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '22), ACM, 2022. 
 
 ## Summary
 
-*Here goes the summary of the work (the paper abstract is often a good starting point, but it can be extended/customized).*
+User simulation has been a cost-effective technique for evaluating conversational recommender systems.  However, building a human-like simulator is still an open challenge.  In this work, we focus on how users reformulate their utterances when a conversational agent fails to understand them.  First, we perform a user study, involving five conversational agents across different domains, to identify common reformulation types and their transition relationships.  A common pattern that emerges is that persistent users would first try to rephrase, then simplify, before giving up.  Next, to incorporate the observed reformulation behavior in a user simulator, we introduce the task of reformulation sequence generation: to generate a sequence of reformulated utterances with a given intent (rephrase or simplify).  We develop methods by extending transformer models guided by the reformulation type and perform further filtering based on estimated reading difficulty.  We demonstrate the effectiveness of our approach using both automatic and human evaluation.
 
-## Some title
 
-This repository is structured as follows:
+## Contents
 
-- `directory_bla/`: bla bla.
+To be added.
 
-- `directory_ble/script_xyz.py`: ble ble Python script.
-
-- `directory_bli/abc.json`: a JSON file containing bli bli.
-
-### Maybe more sections or subsections
-
-Blu blu.
 
 ## Citation
 
 If you use the resources presented in this repository, please cite:
 
 ```
-@inproceedings{Lastname:YYYY:ABC,
-  author =    {...},
-  title =     {...},
-  booktitle = {Full proceedings title},
-  series =    {...},
-  year =      {...},
-  pages =     {...--...},
-  doi =       {XX.XXXX/XXXXXXX.XXXXXXX},
-  publisher = {ACM or Springer, usually; choose your faith}
+@inproceedings{Zhang:2022:SIGIR,
+  author =    {Zhang, Shuo and Wang, Mu-Chun and Balog, Krisztian},
+  title =     {Analyzing and Simulating User Utterance Reformulation in Conversational Recommender Systems},
+  booktitle = {Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  series =    {SIGIR '22},
+  year =      {2022},
+  doi =       {10.1145/3477495.3531936},
+  publisher = {ACM}
 }
 ```
 
 ## Contact
 
-Should you have any questions, please contact `<some guy>` at `<some_actual_email_localpart>`[AT]uis.no (with [AT] replaced by @).
+Should you have any questions, please contact Shuo Zhang (szhang611@bloomberg.net).
