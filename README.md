@@ -11,7 +11,7 @@ User simulation has been a cost-effective technique for evaluating conversationa
 
 ## Contents
 
-To be added.
+A temporary version can be downloaded from [here](https://drive.google.com/file/d/1FdBM-XYWoRBhe4oLkQws-2-G5yFxVywD/view?usp=sharing).
 
 
 ## Citation
